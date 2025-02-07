@@ -7,8 +7,8 @@ import type React from "react" // Added import for React
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Retro Portfolio",
-  description: "A retro-styled portfolio website",
+  title: "Retro Gameboy Portfolio",
+  description: "A retro-styled portfolio website with a gameboy-inspired theme",
 }
 
 export default function RootLayout({
