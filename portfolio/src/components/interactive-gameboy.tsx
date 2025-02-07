@@ -38,7 +38,7 @@ export function InteractiveGameboy() {
       onClick={scrollToTop}
     >
       <Image
-        src="/public/gameboy.png"
+        src="/images/gameboy.png"
         alt="Game Boy Decoration"
         width={96}
         height={96}
