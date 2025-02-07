@@ -11,7 +11,7 @@ export function InteractiveGameboy() {
 
   useEffect(() => {
     const toggleVisibility = () => {
-      if (window.pageYOffset > 300) {
+      if (window.scrollY > 300) {
         setIsVisible(true)
       } else {
         setIsVisible(false)
@@ -38,7 +38,7 @@ export function InteractiveGameboy() {
       onClick={scrollToTop}
     >
       <Image
-        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/gameboy-yellow-4Mo7OnlilEdXasRnc5bjRpAiOwTYOZ.png"
+        src="/public/gameboy.png"
         alt="Game Boy Decoration"
         width={96}
         height={96}

@@ -2,7 +2,8 @@
 
 import { motion, AnimatePresence } from "framer-motion"
 import { Button } from "@/components/ui/button"
-import { Github, Linkedin, X } from "lucide-react"
+import { X } from "lucide-react"
+import { Github, LinkedIn } from '@icons-pack/react-simple-icons'
 
 export function ContactBattle({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
   return (
@@ -37,7 +38,7 @@ export function ContactBattle({ isOpen, onClose }: { isOpen: boolean; onClose: (
                 rel="noopener noreferrer"
                 className="text-black hover:text-blue-600"
               >
-                <Linkedin size={32} />
+                <LinkedIn size={32} />
               </a>
               <a
                 href="https://github.com"
