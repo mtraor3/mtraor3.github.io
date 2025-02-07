@@ -4,9 +4,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node src/index.ts",
-    "build": "tsc",
-    "start": "node dist/index.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "build:css": "tailwindcss -i ./src/globals.css -o ./dist/globals.css",
+    "watch:css": "tailwindcss -i ./src/globals.css -o ./dist/globals.css --watch"
   },
   "engines": {
     "node": ">=18.17.0"
