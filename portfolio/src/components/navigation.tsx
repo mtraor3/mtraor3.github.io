@@ -33,7 +33,7 @@ export function Navigation() {
         <div className="container px-4 mx-auto">
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="text-2xl font-bold pixel-font hover:text-gray-700">
-              PLAYER_1
+              FIRST_LASTNAME
             </Link>
             <div className="hidden md:flex md:items-center md:space-x-8">
               {links.map(({ href, label }) => (
