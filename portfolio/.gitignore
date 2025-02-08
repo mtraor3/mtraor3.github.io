@@ -1,41 +1,41 @@
-# dependencies
-node_modules
-portfolio/node_modules/
-.next
-portfolio/.next/
+# Dependencies
+node_modules/
+**/node_modules/
+.pnpm-store/
+.next/
 .pnp
 .pnp.js
 .nvmrc
 dist/
 
-# testing
-coverage
+# Testing
+coverage/
 
-# next.js
-.next/
+# Next.js
 out/
-build
+build/
 
-# misc
+# Misc
 .DS_Store
 *.pem
 
-# debug
+# Debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# local env files
+# Local env files
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# turbo
-.turbo
+# IDE
+.vscode/
+.idea/
 
-.env
+# Build
+.turbo
 .vercel
-.vscode
-.env*.local
