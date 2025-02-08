@@ -4,7 +4,8 @@ const nextConfig = {
   basePath: '/portfolio',
   images: {
     unoptimized: true
-  }
+  },
+  trailingSlash: true, // Ensure trailing slashes for all paths
 }
 
-module.exports = nextConfig
+export default nextConfig
