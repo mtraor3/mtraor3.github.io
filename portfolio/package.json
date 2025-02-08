@@ -1,15 +1,14 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "build:css": "tailwindcss -i ./src/globals.css -o ./dist/globals.css",
-    "watch:css": "tailwindcss -i ./src/globals.css -o ./dist/globals.css --watch"
+    "export": "next export",
+    "lint": "next lint"
   },
   "engines": {
     "node": ">=18.17.0"
@@ -26,22 +25,24 @@
     "@types/node": "18.0.0",
     "@types/react": "18.0.0",
     "@types/react-dom": "18.0.0",
-    "autoprefixer": "10.4.14",
-    "postcss": "8.4.31",
-    "tailwindcss": "3.3.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.0",
     "tailwindcss-animate": "^1.0.7",
     "ts-node": "^10.9.2",
-    "typescript": "5.7.3"
+    "typescript": "^5.0.4"
   },
   "dependencies": {
     "@icons-pack/react-simple-icons": "^11.2.0",
     "@radix-ui/react-slot": "^1.1.2",
-    "@types/next": "^9.0.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "framer-motion": "^12.4.1",
+    "framer-motion": "^10.16.4",
     "lucide-react": "^0.475.0",
-    "next": "^15.1.6",
+    "next": "13.4.19",
+    "postcss": "8.4.31",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "tailwind-merge": "^3.0.1"
   }
 }
