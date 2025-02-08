@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/portfolio',
+  distDir: 'out',
   images: {
-    unoptimized: true
+    unoptimized: true,
   },
-  trailingSlash: true, // Ensure trailing slashes for all paths
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH,
+  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH,
 }
 
 export default nextConfig
