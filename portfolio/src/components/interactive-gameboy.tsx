@@ -37,13 +37,13 @@ export function InteractiveGameboy() {
       onMouseLeave={() => setIsHovered(false)}
       onClick={scrollToTop}
     >
-      <Image
+      {/* <Image
         src="/images/gameboy.png"
         alt="Game Boy Decoration"
         width={96}
         height={96}
         className="w-full h-full"
-      />
+      /> */}
       <div className="absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-20 transition-opacity duration-300" />
       <div className="absolute top-[22%] left-[22%] w-[56%] h-[38%] flex items-center justify-center">
         {isHovered ? (

@@ -3,7 +3,7 @@
 import { motion, AnimatePresence } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { X } from "lucide-react"
-import { SiGithub, SiLinkedIn, SiX } from '@icons-pack/react-simple-icons'
+import { SiGithub, SiX } from '@icons-pack/react-simple-icons'
 
 export function ContactBattle({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
   return (
@@ -38,7 +38,7 @@ export function ContactBattle({ isOpen, onClose }: { isOpen: boolean; onClose: (
                 rel="noopener noreferrer"
                 className="text-black hover:text-blue-600"
               >
-                <SiLinkedIn size={32} />
+                LinkedIn
               </a>
               <a
                 href="https://github.com"
