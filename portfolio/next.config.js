@@ -4,10 +4,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Since the repo is at mtraor3.github.io/portfolio
-  basePath: '/portfolio',
-  assetPrefix: '/portfolio',
-  // Ensure trailing slashes are handled
+  // Remove the leading slash for basePath and assetPrefix
+  basePath: 'portfolio',
+  assetPrefix: 'portfolio',
   trailingSlash: true,
 }
 
