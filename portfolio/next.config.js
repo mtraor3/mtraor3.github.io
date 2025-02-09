@@ -4,8 +4,11 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/mtraor3.github.io' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '/mtraor3.github.io' : '',
+  // Since the repo is at mtraor3.github.io/portfolio
+  basePath: '/portfolio',
+  assetPrefix: '/portfolio',
+  // Ensure trailing slashes are handled
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
