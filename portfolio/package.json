@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "pnpm run build && touch out/.nojekyll"
   },
   "engines": {
     "node": ">=18.17.0"
