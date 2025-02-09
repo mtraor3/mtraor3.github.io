@@ -8,4 +8,4 @@ const nextConfig = {
   basePath: process.env.NODE_ENV === 'production' ? '/mtraor3.github.io' : '',
 }
 
-export default nextConfig
+module.exports = nextConfig
