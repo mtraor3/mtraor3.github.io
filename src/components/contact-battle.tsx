@@ -2,7 +2,7 @@
 
 import { motion, AnimatePresence } from "framer-motion"
 import { Button } from "@/components/ui/button"
-import { X } from "lucide-react"
+// import { X } from "lucide-react"
 import { SiGithub, SiX } from '@icons-pack/react-simple-icons'
 
 export function ContactBattle({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
