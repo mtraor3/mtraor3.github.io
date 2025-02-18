@@ -6,10 +6,10 @@ import { PortfolioBattle } from "./portfolio-battle"
 import { ContactBattle } from "./contact-battle"
 
 const links = [
-  { href: "#portfolio", label: "Portfolio" },
-  { href: "#about", label: "About" },
-  { href: "#skills", label: "Skills" },
-  { href: "#contact", label: "Contact" },
+  { href: "/portfolio/#portfolio", label: "Portfolio" },
+  { href: "/portfolio/#about", label: "About" },
+  { href: "/portfolio/#skills", label: "Skills" },
+  { href: "/portfolio/#contact", label: "Contact" },
 ]
 
 export function Navigation() {
@@ -32,7 +32,7 @@ export function Navigation() {
       <nav className="sticky top-0 z-50 w-full bg-[#f8e8c0] border-b-4 border-black">
         <div className="container px-4 mx-auto">
           <div className="flex items-center justify-between h-16">
-            <Link href="/" className="text-2xl font-bold pixel-font hover:text-gray-700">
+            <Link href="/portfolio/portfolio" className="text-2xl font-bold pixel-font hover:text-gray-700">
               FIRST_LASTNAME
             </Link>
             <div className="hidden md:flex md:items-center md:space-x-8">

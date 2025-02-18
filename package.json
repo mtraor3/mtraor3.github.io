@@ -1,48 +1,36 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
+  "name": "mtraor3.github.io",
+  "version": "0.1.0",
   "private": true,
-  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "export": "next export",
     "lint": "next lint"
-  },
-  "engines": {
-    "node": ">=18.17.0"
-  },
-  "keywords": [
-    "portfolio",
-    "website",
-    "personal website"
-  ],
-  "author": "Mohamed Traore",
-  "license": "ISC",
-  "description": "Personal portfolio website showcasing projects and skills.",
-  "devDependencies": {
-    "@types/node": "18.0.0",
-    "@types/react": "18.0.0",
-    "@types/react-dom": "18.0.0",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.31",
-    "tailwindcss": "^3.3.0",
-    "tailwindcss-animate": "^1.0.7",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.0.4"
   },
   "dependencies": {
     "@icons-pack/react-simple-icons": "^11.2.0",
     "@radix-ui/react-slot": "^1.1.2",
+    "autoprefixer": "^10.4.20",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "framer-motion": "^10.16.4",
+    "framer-motion": "^12.4.3",
     "lucide-react": "^0.475.0",
-    "next": "13.4.19",
-    "postcss": "8.4.31",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tailwind-merge": "^3.0.1"
+    "next": "15.1.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.0.1",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.7",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
