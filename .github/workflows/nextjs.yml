@@ -61,9 +61,6 @@ jobs:
         env:
           NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
 
-      - name: Static HTML export with Next.js
-        run: pnpm run export
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
