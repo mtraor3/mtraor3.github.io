@@ -66,6 +66,8 @@ jobs:
           version: 10.4.1
       - name: Install dependencies
         run: pnpm install
+      - name: Build
+        run: pnpm build
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
