@@ -22,7 +22,7 @@ export default function Home() {
           <div className="space-y-4">
             <h1 className="text-4xl font-bold pixel-font">Welcome to my Portfolio</h1>
             <p className="text-lg pixel-font">Press START to begin your journey!</p>
-            <Button className="pixel-button" onClick={scrollToAbout}>
+            <Button className="pixel-button" bg-black text-white onClick={scrollToAbout}>
               START
             </Button>
           </div>
@@ -45,8 +45,8 @@ export default function Home() {
                   className="object-cover w-full h-full"
                 />
               </div>
-              <h3 className="text-xl font-bold pixel-font mb-2">John Doe</h3>
-              <p className="text-sm pixel-font text-center">Software Developer</p>
+              <h3 className="text-xl font-bold pixel-font mb-2">Mohamed Traore</h3>
+              <p className="text-sm pixel-font text-center">B2B SaaS Professional / AI Integrator</p>
             </div>
 
             <div className="space-y-4">
@@ -61,16 +61,16 @@ export default function Home() {
 
               <section>
                 <h4 className="text-lg font-bold pixel-font mb-2">Location</h4>
-                <p className="text-sm pixel-font">San Francisco, CA</p>
+                <p className="text-sm pixel-font">United States</p>
               </section>
 
               <section>
                 <h4 className="text-lg font-bold pixel-font mb-2">Interests</h4>
                 <ul className="list-disc list-inside text-sm pixel-font">
-                  <li>Machine Learning</li>
-                  <li>Web Development</li>
-                  <li>Open Source Contribution</li>
-                  <li>Hiking</li>
+                  <li>Basketball</li>
+                  <li>Computer Vision</li>
+                  <li>Computer Vision</li>
+                  <li>Traveling</li>
                 </ul>
               </section>
             </div>
@@ -80,21 +80,31 @@ export default function Home() {
             <h4 className="text-lg font-bold pixel-font mb-2">Work History</h4>
             <div className="space-y-4">
               <div className="p-4 bg-white border-2 border-black rounded-lg">
-                <h5 className="font-bold pixel-font">Senior Developer at TechCorp</h5>
-                <p className="text-sm pixel-font">2018 - Present</p>
+                <h5 className="font-bold pixel-font">Founder/Owner at Ratio Labs</h5>
+                <p className="text-sm pixel-font">2023 - Present</p>
                 <p className="text-sm pixel-font mt-2">Led development of AI-powered analytics platform.</p>
               </div>
               <div className="p-4 bg-white border-2 border-black rounded-lg">
-                <h5 className="font-bold pixel-font">Full Stack Developer at WebSolutions</h5>
-                <p className="text-sm pixel-font">2015 - 2018</p>
+                <h5 className="font-bold pixel-font">Sales Manager at StartupX</h5>
+                <p className="text-sm pixel-font">March 2024 - Sept 2024</p>
                 <p className="text-sm pixel-font mt-2">
                   Developed and maintained client websites and web applications.
                 </p>
               </div>
               <div className="p-4 bg-white border-2 border-black rounded-lg">
-                <h5 className="font-bold pixel-font">Junior Developer at StartupX</h5>
-                <p className="text-sm pixel-font">2013 - 2015</p>
-                <p className="text-sm pixel-font mt-2">Assisted in building MVP for social media management tool.</p>
+                <h5 className="font-bold pixel-font">StartupY</h5>
+                <p className="text-sm pixel-font mt-2">A computer vision startup focused on providing a platform and developer tools for quickly building</p>
+                <p className="text-sm pixel-font">and iterating on highly performant computer vision models.</p>
+                <p className="text-sm pixel-font">May 2021 - June 2023</p>
+                <h6 className="font-bold pixel-font">ML Solutions Engineer</h5>
+                <p className="text-sm pixel-font">Feb 2023 - June 2023</p>
+                <h6 className="font-bold pixel-font">Developer Experience</h5>
+                <p className="text-sm pixel-font">April 2022 - Feb 2023</p>
+                <h6 className="font-bold pixel-font">BDR & Product Specialist</h5>
+                <p className="text-sm pixel-font">Oct 2021 - April 2022</p>
+                <h6 className="font-bold pixel-font">Sales Development Representative (SDR)</h5>
+                <p className="text-sm pixel-font">May 2021 - Oct 2021</p>
+
               </div>
             </div>
           </section>
@@ -111,31 +121,34 @@ export default function Home() {
             <section>
               <h3 className="text-2xl font-bold pixel-font mb-4">Education</h3>
               <div className="p-4 bg-white border-2 border-black rounded-lg">
-                <h4 className="font-bold pixel-font">B.S. in Computer Science</h4>
-                <p className="text-sm pixel-font">University of Technology, 2013</p>
+                <h4 className="font-bold pixel-font">Environmental Science: Hydroscience Focus</h4>
+                <p className="text-sm pixel-font">The University of Iowa, 2018</p>
               </div>
             </section>
 
-            <section>
+            {/* <section>
               <h3 className="text-2xl font-bold pixel-font mb-4">Certifications</h3>
               <ul className="list-disc list-inside text-sm pixel-font space-y-2">
                 <li>AWS Certified Solutions Architect</li>
                 <li>Google Cloud Professional Data Engineer</li>
                 <li>Microsoft Certified: Azure Developer Associate</li>
               </ul>
-            </section>
+            </section> */}
 
             <section>
               <h3 className="text-2xl font-bold pixel-font mb-4">Programming Skills</h3>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 <div className="p-2 bg-white border-2 border-black rounded-lg text-center">
-                  <p className="font-bold pixel-font">JavaScript</p>
-                </div>
-                <div className="p-2 bg-white border-2 border-black rounded-lg text-center">
                   <p className="font-bold pixel-font">Python</p>
                 </div>
                 <div className="p-2 bg-white border-2 border-black rounded-lg text-center">
-                  <p className="font-bold pixel-font">Java</p>
+                  <p className="font-bold pixel-font">JavaScript</p>
+                </div>
+                <div className="p-2 bg-white border-2 border-black rounded-lg text-center">
+                  <p className="font-bold pixel-font">TypeScript</p>
+                </div>
+                <div className="p-2 bg-white border-2 border-black rounded-lg text-center">
+                  <p className="font-bold pixel-font">NextJS</p>
                 </div>
                 <div className="p-2 bg-white border-2 border-black rounded-lg text-center">
                   <p className="font-bold pixel-font">React</p>
@@ -154,8 +167,6 @@ export default function Home() {
               <ul className="list-disc list-inside text-sm pixel-font space-y-2">
                 <li>Git</li>
                 <li>Docker</li>
-                <li>Kubernetes</li>
-                <li>Jenkins</li>
                 <li>Jira</li>
                 <li>Adobe Creative Suite</li>
               </ul>
