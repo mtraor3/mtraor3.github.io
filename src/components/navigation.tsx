@@ -36,6 +36,7 @@ export function Navigation() {
               FIRST_LASTNAME
             </Link>
             <div className="hidden md:flex md:items-center md:space-x-8">
+            {/* eslint-disable-next-line @typescript-eslint/no-unused-vars */}
               {links.map(({ href, label }) => (
                 <button
                   key={label}
