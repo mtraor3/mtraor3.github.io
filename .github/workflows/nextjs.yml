@@ -58,10 +58,14 @@ jobs:
         with:
           node-version: "23.7.0"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
+      - name: Install pnpm
+        run: npm install -g pnpm
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
           version: 10.4.1
+      - name: Install dependencies
+        run: pnpm install
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
