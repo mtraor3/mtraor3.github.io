@@ -33,7 +33,7 @@ export function Navigation() {
         <div className="container px-4 mx-auto">
           <div className="flex items-center justify-between h-16">
             <Link href="/portfolio/portfolio" className="text-2xl font-bold pixel-font hover:text-gray-700">
-              FIRST_LASTNAME
+              MOHAMED_TRAORE_
             </Link>
             <div className="hidden md:flex md:items-center md:space-x-8">
             {/* eslint-disable-next-line @typescript-eslint/no-unused-vars */}
