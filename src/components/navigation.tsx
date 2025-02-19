@@ -32,8 +32,9 @@ export function Navigation() {
       <nav className="sticky top-0 z-50 w-full bg-[#f8e8c0] border-b-4 border-black">
         <div className="container px-4 mx-auto">
           <div className="flex items-center justify-between h-16">
-            <Link href="/portfolio/portfolio" className="text-2xl font-bold pixel-font hover:text-gray-700">
-              MOHAMED_TRAORE_
+            <Link href="/" className="text-2xl font-bold pixel-font relative transition-transform hover:-translate-y-1 active:translate-y-0
+                  hover:shadow-[0_4px_0_0_rgba(0,0,0,1)] active:shadow-[0_0_0_0_rgba(0,0,0,1)]">
+              MOHAMED_TRAORE
             </Link>
             <div className="hidden md:flex md:items-center md:space-x-8">
             {/* eslint-disable-next-line @typescript-eslint/no-unused-vars */}
