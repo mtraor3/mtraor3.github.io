@@ -134,14 +134,12 @@ export default function Home() {
             </section>
 
             {/* <section>
-            {/* <section>
               <h3 className="text-2xl font-bold pixel-font mb-4">Certifications</h3>
               <ul className="list-disc list-inside text-sm pixel-font space-y-2">
                 <li>AWS Certified Solutions Architect</li>
                 <li>Google Cloud Professional Data Engineer</li>
                 <li>Microsoft Certified: Azure Developer Associate</li>
               </ul>
-            </section> */}
             </section> */}
 
             <section>
