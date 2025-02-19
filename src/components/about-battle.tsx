@@ -30,17 +30,16 @@ export function AboutBattle({ isOpen, onClose }: { isOpen: boolean; onClose: () 
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="flex flex-col items-center">
-                <div className="w-48 h-48 rounded-full overflow-hidden mb-4">
+                <div className="w-192 h-192 rounded-full overflow-hidden mb-4">
                   <Image
-                    src="/placeholder.svg"
-                    alt="Headshot"
+                    src="/mohamed-traore-headshot.svg"
+                    alt="Mohamed Traore Headshot Image"
                     width={192}
                     height={192}
                     className="object-cover w-full h-full"
                   />
                 </div>
                 <h3 className="text-xl font-bold pixel-font mb-2">John Doe</h3>
-                <p className="text-sm pixel-font text-center">Software Developer</p>
               </div>
 
               <div className="space-y-4">
