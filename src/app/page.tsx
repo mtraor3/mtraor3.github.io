@@ -171,7 +171,7 @@ export default function Home() {
               <ul className="list-disc list-inside text-sm pixel-font space-y-2">
                 <li>Git</li>
                 <li>Computer Vision</li>
-                <li>Generative AI (LLM's and VLM's)</li>
+                <li>Generative AI LLM's and VLM's</li>
                 <li>AWS</li>
                 <li>Figma</li>
                 <li>Docker</li>
