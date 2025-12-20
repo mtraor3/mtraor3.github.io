@@ -63,7 +63,7 @@ export default function Home() {
 
               <section>
                 <h4 className="text-lg font-bold pixel-font mb-2">Location</h4>
-                <p className="text-sm pixel-font">Iowa City, IA</p>
+                <p className="text-sm pixel-font">San Francisco, CA</p>
               </section>
 
               <section>
