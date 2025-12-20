@@ -33,7 +33,7 @@ export function ContactBattle({ isOpen, onClose }: { isOpen: boolean; onClose: (
 
             <div className="flex justify-center space-x-6">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/mo-traore/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-black hover:text-blue-600"
@@ -41,7 +41,7 @@ export function ContactBattle({ isOpen, onClose }: { isOpen: boolean; onClose: (
                 LinkedIn
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/mtraor3"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-black hover:text-gray-600"
@@ -49,7 +49,7 @@ export function ContactBattle({ isOpen, onClose }: { isOpen: boolean; onClose: (
                 <SiGithub size={32} />
               </a>
               <a
-                href="https://x.com"
+                href="https://x.com/cheeds06"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-black hover:text-blue-400"
