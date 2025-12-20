@@ -55,9 +55,9 @@ export default function Home() {
               <section>
                 <h4 className="text-lg font-bold pixel-font mb-2">Biography</h4>
                 <p className="text-sm pixel-font">      
-                  Mohamed Traore is an AI Solutions and Implementation Leader with over 3 years of experience driving
+                  Mohamed Traore is an AI Solutions and Implementation Leader with over 4 years of experience driving
                   business impact through generative AI and computer vision solutions. He has held various roles at AI startups
-                  focused in computer vision, primarily in Sales and Customer Success and Engineering.
+                  focused in computer vision and generative AI software services, primarily in GTM & Growth, and Customer Success & Engineering.
                 </p>
               </section>
 
