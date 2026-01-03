@@ -100,9 +100,9 @@ export default function Home() {
                 <h5 className="font-bold pixel-font">Labelbox</h5>
                 <p className="text-xs pixel-font">San Francisco, CA (On-Site) (Full-Time)</p>
                 <p className="text-sm pixel-font">Feb 2025 - Present</p>
-                <p className="text-sm pixel-font mt-2">Expanding the market footprint of Labelbox, the go-to data factory for frontier AI labs. 
-                  Leading and supporting growth initiatives that help the world's leading AI labs solve the "data bottleneck" by adopting our 
-                  unified platform and expert labeling services to fuel their AI development.</p>
+                <p className="text-sm pixel-font mt-2">Expanding the market footprint of Labelbox and Alignerr, the go-to data factory for frontier AI labs. 
+                  Leading and supporting growth initiatives that help leading AI labs solve data bottlenecks by adopting the 
+                  Labelbox unified platform and expert labeling services to fuel their AI development.</p>
                 <h6 className="font-bold pixel-font">Senior Technical Program Manager, Growth</h6>
                 <p className="text-sm pixel-font">Dec 2025 - Present</p>
                 <h6 className="font-bold pixel-font">Alignerr GTM & Sourcing, Growth</h6>
