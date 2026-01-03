@@ -15,6 +15,11 @@ const links = [
 export function Navigation() {
   const [isPortfolioOpen, setIsPortfolioOpen] = useState(false)
   const [isContactOpen, setIsContactOpen] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+
+  const handleMobileMenuToggle = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen)
+  }
 
   const handleClick = (label: string) => {
     if (label === "Portfolio") {
@@ -48,11 +53,35 @@ export function Navigation() {
                 </button>
               ))}
             </div>
-            <button className="p-2 md:hidden">
+            <button 
+              className="p-2 md:hidden"
+              onClick={handleMobileMenuToggle}
+              aria-expanded={isMobileMenuOpen}
+              aria-label="Toggle mobile menu"
+            >
               <span className="sr-only">Open menu</span>
               <div className="w-6 h-6 pixel-hamburger" />
             </button>
           </div>
+          {/* Mobile menu dropdown */}
+          {isMobileMenuOpen && (
+            <div className="md:hidden border-t-2 border-black bg-[#f8e8c0] pb-4">
+              <div className="flex flex-col space-y-2 px-4 pt-2">
+                {links.map(({ label }) => (
+                  <button
+                    key={label}
+                    onClick={() => {
+                      handleClick(label)
+                      setIsMobileMenuOpen(false)
+                    }}
+                    className="px-4 py-2 text-sm font-medium text-black transition-colors pixel-font hover:bg-black hover:text-white text-left"
+                  >
+                    {label}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </nav>
       <PortfolioBattle isOpen={isPortfolioOpen} onClose={() => setIsPortfolioOpen(false)} />
