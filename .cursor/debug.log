@@ -1,0 +1,8 @@
+{"location":"navigation.tsx:mount","message":"Navigation component mounted","data":{"isMobileMenuOpen":false},"timestamp":1767477033833,"sessionId":"debug-session","hypothesisId":"H2"}
+{"location":"navigation.tsx:mount","message":"Navigation component mounted","data":{"isMobileMenuOpen":false},"timestamp":1767477073576,"sessionId":"debug-session","hypothesisId":"H2"}
+{"location":"navigation.tsx:handleMobileMenuToggle","message":"Mobile menu button clicked","data":{"currentState":false,"newState":true},"timestamp":1767477093195,"sessionId":"debug-session","hypothesisId":"H1"}
+{"location":"navigation.tsx:mobileMenuRender","message":"Mobile menu rendered","data":{"isMobileMenuOpen":true},"timestamp":1767477093197,"sessionId":"debug-session","hypothesisId":"H3"}
+{"location":"navigation.tsx:mobileMenuRender","message":"Mobile menu rendered","data":{"isMobileMenuOpen":true},"timestamp":1767477093198,"sessionId":"debug-session","hypothesisId":"H3"}
+{"location":"navigation.tsx:handleMobileMenuToggle","message":"Mobile menu button clicked","data":{"currentState":false,"newState":true},"timestamp":1767477102842,"sessionId":"debug-session","hypothesisId":"H1"}
+{"location":"navigation.tsx:mobileMenuRender","message":"Mobile menu rendered","data":{"isMobileMenuOpen":true},"timestamp":1767477102843,"sessionId":"debug-session","hypothesisId":"H3"}
+{"location":"navigation.tsx:mobileMenuRender","message":"Mobile menu rendered","data":{"isMobileMenuOpen":true},"timestamp":1767477102844,"sessionId":"debug-session","hypothesisId":"H3"}
