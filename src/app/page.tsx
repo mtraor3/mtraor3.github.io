@@ -3,12 +3,26 @@
 import React from "react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
-import { useRef } from "react"
+import { useRef, useEffect } from "react"
 import { InteractiveGameboy } from "@/components/interactive-gameboy"
 
 export default function Home() {
   const aboutRef = useRef<HTMLDivElement>(null)
   const skillsRef = useRef<HTMLDivElement>(null)
+
+  // Suppress Next.js 15 params enumeration warning triggered by dev tools (Cursor inspector)
+  // This is a known issue with Next.js 15 async params + dev tools enumeration
+  useEffect(() => {
+    const originalConsoleError = console.error;
+    console.error = (...args) => {
+      const msg = args[0]?.toString() || '';
+      if (msg.includes('params are being enumerated') || msg.includes('searchParams are being enumerated')) {
+        return; // Suppress dev-tools-only warning
+      }
+      originalConsoleError.apply(console, args);
+    };
+    return () => { console.error = originalConsoleError; };
+  }, []);
 
   const scrollToAbout = () => {
     aboutRef.current?.scrollIntoView({ behavior: "smooth" })
@@ -83,15 +97,27 @@ export default function Home() {
             <h4 className="text-lg font-bold pixel-font mb-2">Work History</h4>
             <div className="space-y-4">
               <div className="p-4 bg-white border-2 border-black rounded-lg">
+                <h5 className="font-bold pixel-font">Labelbox</h5>
+                <p className="text-xs pixel-font">San Francisco, CA (On-Site) (Full-Time)</p>
+                <p className="text-sm pixel-font">Feb 2025 - Present</p>
+                <p className="text-sm pixel-font mt-2">Expanding the market footprint of Labelbox, the go-to data factory for frontier AI labs. 
+                  Leading and supporting growth initiatives that help the world's leading AI labs solve the "data bottleneck" by adopting our 
+                  unified platform and expert labeling services to fuel their AI development.</p>
+                <h6 className="font-bold pixel-font">Senior Technical Program Manager, Growth</h6>
+                <p className="text-sm pixel-font">Dec 2025 - Present</p>
+                <h6 className="font-bold pixel-font">Alignerr GTM & Sourcing, Growth</h6>
+                <p className="text-sm pixel-font">Feb 2025 - Dec 2025</p>
+              </div>
+              <div className="p-4 bg-white border-2 border-black rounded-lg">
                 <h5 className="font-bold pixel-font">Founder/Owner at Ratio Labs</h5>
-                <p className="text-sm pixel-font">United States</p>
-                <p className="text-sm pixel-font">June 2023 - Present</p>
+                <p className="text-sm pixel-font">United States (Remote)</p>
+                <p className="text-sm pixel-font">June 2023 - Dec 2025</p>
                 <p className="text-sm pixel-font mt-2">Led product strategy and frontend development at CoralX Foundation.</p>
                 <p className="text-sm pixel-font mt-2">Booked and delivered AI talks and workshops for organizations including
                   New Bohemian Collaborative (Cedar Rapids, IA), Pi515 (Des Moines, IA) and Iowa Association of Grocery and Industry.</p>
               </div>
               <div className="p-4 bg-white border-2 border-black rounded-lg">
-                <h5 className="font-bold pixel-font">Sales Manager at StartupX</h5>
+                <h5 className="font-bold pixel-font">Sales Manager at Groundlight AI</h5>
                 <p className="text-xs pixel-font">Seattle, WA (Hybrid) (Full Time)</p>
                 <p className="text-sm pixel-font">March 2024 - Sept 2024</p>
                 <p className="text-sm pixel-font mt-2">A computer vision startup focused on providing Human-In-The-Loop (HITL) vision-based AI

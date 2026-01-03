@@ -36,6 +36,7 @@ yarn-error.log*
 # IDE
 .vscode/
 .idea/
+.cursor/
 
 # env files (can opt-in for committing if needed)
 .env*
